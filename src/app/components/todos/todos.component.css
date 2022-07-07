@@ -1,0 +1,10 @@
+.todo {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.todo.done {
+  text-decoration: line-through;
+}
